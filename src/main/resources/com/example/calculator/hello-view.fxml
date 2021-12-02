@@ -11,15 +11,15 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="417.0" prefWidth="361.0" style="-fx-background-color: cyan; -fx-border-color: black; -fx-border-radius: 10px;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="417.0" prefWidth="361.0" style="-fx-background-color: cyan; -fx-border-color: black; -fx-border-radius: 5px;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.HelloController">
    <children>
-      <Label alignment="CENTER" layoutY="1.0" prefHeight="65.0" prefWidth="334.0" style="-fx-border-radius: 10px;" text="MY CALCULATOR" textAlignment="JUSTIFY">
+      <Label alignment="CENTER" layoutY="1.0" prefHeight="65.0" prefWidth="361.0" style="-fx-border-radius: 10px;" text="MY CALCULATOR" textAlignment="JUSTIFY">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
       <Line endX="100.0" startX="-100.0" />
-      <GridPane layoutX="18.0" layoutY="143.0" prefHeight="253.0" prefWidth="323.0" style="-fx-background-color: cyan;">
+      <GridPane layoutX="18.0" layoutY="143.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="253.0" prefWidth="323.0" style="-fx-background-color: cyan;">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -33,7 +33,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="one" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="129.0" prefWidth="84.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="1">
+            <Button fx:id="one" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="129.0" prefWidth="84.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="1">
                <font>
                   <Font size="24.0" />
                </font>
@@ -41,7 +41,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="four" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="85.0" prefWidth="290.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="4" GridPane.rowIndex="1">
+            <Button fx:id="four" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="85.0" prefWidth="290.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="4" GridPane.rowIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
@@ -49,7 +49,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="seven" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="95.0" prefWidth="277.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="7" GridPane.rowIndex="2">
+            <Button fx:id="seven" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="95.0" prefWidth="277.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="7" GridPane.rowIndex="2">
                <font>
                   <Font size="24.0" />
                </font>
@@ -57,7 +57,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="clear" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="86.0" prefWidth="106.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="CL" GridPane.rowIndex="3">
+            <Button fx:id="clear" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="86.0" prefWidth="106.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="CL" GridPane.rowIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
@@ -65,7 +65,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="two" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="98.0" prefWidth="371.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="2" GridPane.columnIndex="1">
+            <Button fx:id="two" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="98.0" prefWidth="371.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="2" GridPane.columnIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
@@ -73,7 +73,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="five" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="104.0" prefWidth="314.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button fx:id="five" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="104.0" prefWidth="314.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
@@ -81,7 +81,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="eight" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="125.0" prefWidth="303.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Button fx:id="eight" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="125.0" prefWidth="303.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <font>
                   <Font size="24.0" />
                </font>
@@ -89,7 +89,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="zero" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="134.0" prefWidth="309.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <Button fx:id="zero" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="134.0" prefWidth="309.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
@@ -97,7 +97,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="three" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="110.0" prefWidth="131.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="3" GridPane.columnIndex="2">
+            <Button fx:id="three" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="110.0" prefWidth="131.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="3" GridPane.columnIndex="2">
                <font>
                   <Font size="24.0" />
                </font>
@@ -105,7 +105,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="nine" layoutX="296.0" layoutY="97.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="91.0" prefWidth="251.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Button fx:id="nine" layoutX="296.0" layoutY="97.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="91.0" prefWidth="251.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <font>
                   <Font size="24.0" />
                </font>
@@ -113,7 +113,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="equal" layoutX="296.0" layoutY="163.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="79.0" prefWidth="84.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="=" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <Button fx:id="equal" layoutX="296.0" layoutY="163.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="79.0" prefWidth="84.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="=" GridPane.columnIndex="2" GridPane.rowIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
@@ -121,7 +121,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="six" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="90.0" prefWidth="201.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button fx:id="six" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="90.0" prefWidth="201.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
@@ -129,7 +129,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="add" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="95.0" prefWidth="183.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="+" GridPane.columnIndex="3">
+            <Button fx:id="add" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="101.0" prefWidth="109.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="+" GridPane.columnIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
@@ -137,7 +137,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="sub" layoutX="334.0" layoutY="31.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="89.0" prefWidth="160.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <Button fx:id="sub" layoutX="334.0" layoutY="31.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="85.0" prefWidth="99.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1">
                <font>
                   <Font size="24.0" />
                </font>
@@ -145,7 +145,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="div" layoutX="334.0" layoutY="97.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="92.0" prefWidth="97.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="/" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <Button fx:id="div" layoutX="334.0" layoutY="97.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="92.0" prefWidth="97.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="/" GridPane.columnIndex="3" GridPane.rowIndex="3">
                <font>
                   <Font size="24.0" />
                </font>
@@ -153,7 +153,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="mul" layoutX="334.0" layoutY="97.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="93.0" prefWidth="139.0" style="-fx-background-color: white; -fx-border-radius: 10px; -fx-border-width: 1px; -fx-border-color: black;" text="X" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <Button fx:id="mul" layoutX="334.0" layoutY="97.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="93.0" prefWidth="139.0" style="-fx-background-color: white; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-border-color: black;" text="X" GridPane.columnIndex="3" GridPane.rowIndex="2">
                <font>
                   <Font size="18.0" />
                </font>
@@ -163,7 +163,7 @@
             </Button>
          </children>
       </GridPane>
-      <TextField fx:id="display" alignment="CENTER_RIGHT" editable="false" layoutX="20.0" layoutY="58.0" prefHeight="79.0" prefWidth="323.0" promptText="0" style="-fx-background-color: black;">
+      <TextField fx:id="display" alignment="CENTER_RIGHT" editable="false" layoutX="20.0" layoutY="58.0" prefHeight="79.0" prefWidth="323.0" promptText="0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 5px;">
          <font>
             <Font size="36.0" />
          </font>
